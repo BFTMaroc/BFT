@@ -11,17 +11,31 @@
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%231E6FD9'/><text x='50%' y='54%' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-weight='900' font-size='13' fill='white'>BFT</text></svg>" />
 
  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "BFT Maroc",
-    "alternateName": [
-      "BFT",
-      "BEST FIBRE TECHNOLOGY"
-    ],
-    "url": "https://www.bftmaroc.com/"
-  }
-  </script>
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://www.bftmaroc.com/#website",
+      "name": "BFT Maroc",
+      "alternateName": "BEST FIBRE TECHNOLOGY",
+      "url": "https://www.bftmaroc.com/",
+      "inLanguage": "fr-MA",
+      "publisher": {
+        "@id": "https://www.bftmaroc.com/#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.bftmaroc.com/#organization",
+      "name": "BEST FIBRE TECHNOLOGY",
+      "alternateName": "BFT Maroc",
+      "url": "https://www.bftmaroc.com/",
+      "description": "Entreprise marocaine spécialisée dans la fibre optique, les réseaux de communication et les solutions de sécurité."
+    }
+  ]
+}
+</script>
 </head>
 <body>
 
